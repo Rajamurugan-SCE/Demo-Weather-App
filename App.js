@@ -88,6 +88,9 @@ export default class App extends React.Component{
                 )}
                 {!error && (
                   <View>
+                    <Text style={[styles.largeText, styles.textStyle]}>
+                       {location}
+                    </Text>
                     <Text style={[styles.smallText, styles.textStyle]}>
                        {weather}
                     </Text>
